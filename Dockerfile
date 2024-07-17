@@ -1,6 +1,6 @@
 FROM node:16-alpine
 
-COPY ./app
+COPY . /app
 
 CMD node /app/app.js
 
